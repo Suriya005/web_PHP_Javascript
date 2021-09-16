@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   
 </head>
 
@@ -77,6 +78,66 @@
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+               <li class="nav-item menu">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-atlas"></i>
+                <p>
+                  Admin Project
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="user_tb.php" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ตาราง User</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="event_tb.php" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ตาราง Event</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="location_tb.php" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ตาราง Localtion</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="event_register.php" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ตาราง Event register</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="qusetion_tb.php" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ตาราง Qusetion</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="answer_tb.php" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ตาราง Answer</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="major_tb.php" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ตาราง Major</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="faculty_tb.php" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>ตาราง Faculty</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
             <li class="nav-item menu">
               <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-atlas"></i>
@@ -123,6 +184,12 @@
                 </li>
               </ul>
             </li>
+            <li class="nav-item">
+                  <a href="https://github.com/Suriya005/web_PHP_Javascript" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Source code this project</p>
+                  </a>
+                </li>
           </ul>
         </nav>
         <!-- /.sidebar-menu -->
